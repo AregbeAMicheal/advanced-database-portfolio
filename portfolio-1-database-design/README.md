@@ -109,7 +109,11 @@ The design is therefore in **third normal form (3NF)**: each fact is stored once
 **One deliberate exception (controlled denormalisation):** `deliveries.status` repeats the latest stage from `delivery_status_updates`, so a customer's tracking page can show the current status without searching the whole history. The risk is that the two could disagree. Portfolio 3 handles this by updating both inside one transaction.
 
 ### The address describes the hub, not the delivery.
-> ✏️ 
+
+If it sat in deliveries, Ikeja Hub’s address would be typed again on every Ikeja delivery.
+If the hub moved, you’d have to fix hundreds of rows, and missing one leaves two different addresses. This is the “update problem”.
+Fix: store the address once in hubs, and let each delivery keep only hub_id, the link.
+This is the 3NF rule: a column must describe only the thing its table is about. 
 
 
 
