@@ -15,6 +15,12 @@ This portfolio uses one case study for all five activities: the database for a s
 - **Major data stored:** customers, drivers, vehicles, hubs, delivery orders, delivery status updates, driver locations and payments.
 - **Key operations:** create a delivery request, match it to an available driver, update status from pickup to delivery, track a parcel, take payment, and report on-time performance.
 
+Files in this submission folder:
+  Aregbe_Abiodun_301915034_FinalDocumentation.pdf   2-3 page final documentation (all five portfolios,
+                                                    reflection, references)
+  Aregbe_Abiodun_301915034_Evidence.pdf             Key screenshots supporting each portfolio
+  Aregbe_Abiodun_301915034_README.txt               This file
+  
 ## Portfolio contents
 
 | Folder | Activity |
@@ -24,3 +30,7 @@ This portfolio uses one case study for all five activities: the database for a s
 | portfolio-3-transactions-concurrency | Transactions and concurrency |
 | portfolio-4-nosql | NoSQL and advanced data models |
 | portfolio-5-distributed-cloud | Distributed and cloud database exercise |
+
+
+Tools: PostgreSQL 18, pgAdmin 4, MongoDB Atlas (free M0 cluster, AWS Paris), MongoDB Compass (mongosh).
+All data is simulated; no real company or customer data was used.
