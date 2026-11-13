@@ -16,10 +16,10 @@ This portfolio uses one case study for all five activities: the database for a s
 - **Key operations:** create a delivery request, match it to an available driver, update status from pickup to delivery, track a parcel, take payment, and report on-time performance.
 
 Files in this submission folder:
-  Aregbe_Abiodun_301915034_FinalDocumentation.pdf   2-3 page final documentation (all five portfolios,
+ - Aregbe_Abiodun_301915034_FinalDocumentation.pdf   2-3 page final documentation (all five portfolios,
                                                     reflection, references)
-  Aregbe_Abiodun_301915034_Evidence.pdf             Key screenshots supporting each portfolio
-  Aregbe_Abiodun_301915034_README.txt               This file
+ - Aregbe_Abiodun_301915034_Evidence.pdf             Key screenshots supporting each portfolio
+ - Aregbe_Abiodun_301915034_README.txt               This file
   
 ## Portfolio contents
 
